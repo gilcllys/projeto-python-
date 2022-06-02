@@ -1,0 +1,25 @@
+1654189081710	geckodriver	INFO	Listening on 127.0.0.1:62883
+1654189084751	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62884" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\gilcl\\AppData\\Local\\Temp\\rust_mozprofilenyjp9Z"
+1654189085506	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:62884
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\gilcl\\AppData\\Local\\Temp\\rust_mozprofilenyjp9Z\\search.json.mozlz4", (void 0)))
+1654189087676	Marionette	INFO	Listening on port 62909
+Read port: 62909
+DevTools listening on ws://localhost:62884/devtools/browser/1bdc0cde-85c4-4cd2-9416-2bc921aac2c0
+1654189089210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654189089285	Marionette	INFO	Stopped listening on port 62909
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1654189135236	geckodriver	INFO	Listening on 127.0.0.1:63154
+1654189138295	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63155" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\gilcl\\AppData\\Local\\Temp\\rust_mozprofileZLTO44"
+1654189138648	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:63155
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\gilcl\\AppData\\Local\\Temp\\rust_mozprofileZLTO44\\search.json.mozlz4", (void 0)))
+1654189140415	Marionette	INFO	Listening on port 63177
+DevTools listening on ws://localhost:63155/devtools/browser/18683c86-3368-41bb-b4f4-ff9f9955c264
+Read port: 63177
+1654189140629	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654189140695	Marionette	INFO	Stopped listening on port 63177
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
